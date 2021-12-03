@@ -1,13 +1,13 @@
 {
-    "admin/services/dmesg": {
-        "title": "Kernel Log",
-        "order": 30,
-        "action": {
-            "type": "view",
-            "path": "dmesg"
-        },
-        "depends": {
-            "acl": [ "luci-app-dmesg" ]
-        }
-    }
+	"admin/services/dmesg": {
+		"title": "Kernel Log",
+		"order": 30,
+		"action": {
+			"type": "view",
+			"path": "dmesg"
+		},
+		"depends": {
+			"acl": [ "luci-app-dmesg" ]
+		}
+	}
 }

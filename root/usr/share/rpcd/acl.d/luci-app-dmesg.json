@@ -1,11 +1,11 @@
 {
-    "luci-app-dmesg": {
-        "description": "Grant access to dmesg procedures",
-        "read": {
-            "cgi-io": [ "exec" ],
-            "file": {
-                "/bin/dmesg -r": [ "exec" ]
-            }
-        }
-    }
+	"luci-app-dmesg": {
+		"description": "Grant access to dmesg procedures",
+		"read": {
+			"cgi-io": [ "exec" ],
+			"file": {
+				"/bin/dmesg -r": [ "exec" ]
+			}
+		}
+	}
 }
